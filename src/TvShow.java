@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class TvShow extends Movie {
-    int seasons;
-    int episodes;
+    private int seasons;
+    private int episodes;
 
     public TvShow(String title, String rating, String director, ArrayList<String> cast, int length, String description, double grossing, int seasons, int episodes) {
         super(title, rating, director, cast, length, description, grossing);

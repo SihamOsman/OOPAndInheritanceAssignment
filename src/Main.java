@@ -14,7 +14,7 @@ public class Main {
         System.out.println(homeAlone.getTitle());
         System.out.println(cast);
         System.out.println(seattle.getDirector());
-        System.out.println(seattle.length);
+        System.out.println(seattle.getLength());
         System.out.println(friends.getEpisodes());
         System.out.println(friends.getRating());
 
